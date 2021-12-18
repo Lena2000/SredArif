@@ -9,8 +9,8 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int n=0;
-        int m=0;
+        double n=0;
+        double m=0;
 
         System.out.println("Введите первое значение:");
         n=sc.nextInt();
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Введите второе значение:");
         m=sc.nextInt();
 
-        int result = (n+m)/2;
+        double result = (n+m)/2;
         System.out.println("Среднее значение - "+ result);
     }
 }
